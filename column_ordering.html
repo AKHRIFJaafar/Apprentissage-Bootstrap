@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <title>Column Ordering</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Bootstrap -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+     integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">     
+
+</head>
+<body>
+    <div class = "container">
+        <h1>Column Ordering</h1>
+        
+        <div class = "row">
+           <p>Before Ordering</p>
+           
+           <div class = "col-md-4" style = "background-color: #dedef8;
+              box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+              
+              I am on left
+           </div>    
+           <div class = "col-md-8" style = "background-color: #dedef8;
+              box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;"> 
+              I am on right
+           </div>         
+        </div>
+        <br>
+        <div class = "row">
+           <p>After Ordering</p>
+           
+           <div class = "col-md-4 col-md-push-8" style = "background-color: #dedef8;
+              box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+              
+              I was on left
+           </div>
+           
+           <div class = "col-md-8 col-md-pull-4" style = "background-color: #dedef8;
+              box-shadow: inset 1px -1px 1px #444, inset -1px 1px 1px #444;">
+              
+              I was on right
+           </div>
+             
+        </div>
+     
+     </div>
+</body>
+</html>
